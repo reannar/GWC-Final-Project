@@ -1,22 +1,24 @@
 <!DOCTYPE html>
 <html>
   <head>
+    <link rel="stylesheet" href="CSS/agenciesStyle.css">
+    <link href="https://fonts.googleapis.com/css?family=Khand|Meddon|Open+Sans+Condensed:300|Pathway+Gothic+One|Special+Elite" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <style>
-       /* Set the size of the div element that contains the map */
-      #map {
-        height: 400px;  /* The height is 400 pixels */
-        width: 80%;  /* The width is the width of the web page */
-        margin-left: auto;
-        margin-right: auto;
-        
-       }
-    </style>
-
-
+    <div id="google_translate_element"></div>
+    <script>
+          function googleTranslateElementInit() {
+              new google.translate.TranslateElement(
+                  {pageLanguage: 'en'},
+                  'google_translate_element'
+              );
+          }
+    </script>
+    <script src="http://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
   </head>
-  <body>
-    <header> agencies </header>
+
+    <body>
+    <header id="agenciesTitle"> agencies </header>
 
     <br></br>
     <div class="topnav"><center>
@@ -36,26 +38,38 @@
     &nbsp;
     &nbsp;
     &nbsp;
-    <a id="resources" href="resources.html">RESOURCES</a></center>
+    <div class="dropdown">
+      <button class="dropbtn">RESOURCES</button>
+      <div class="dropdown-content">
+        <a href="ICE.html">ICE</a>
+        <a href="#">Link 2</a>
+        <a href="#">Link 3</a>
+      </div>
+    </div>
     </div>
 
-
+    <h1 id="agency1"> Law Firm of Silicon Valley</h1>
+    <p><h2 id="agency1Quote">"Every person in our thriving region is granted the same rights and legal access."</p></h2>
+    <p><h1>Mission</p></h1>
+    <P><h2>-Advance the rights of under-represented indivisuals and families in our diverse community through legal services, strategic advocacy, and educational outreach.</p></h2>
+    <p><h3>*Top San Jose Immigration lawyer near you*</p></h3>
+    <p><h1>Look down below to find an immagration lawyer near you!</p><h1>
 
 
     <br></br>
     <!--The div element for the map -->
     <div id="map"></div>
     <script>
-// Initialize and add the map
-function initMap() {
-  // The location of Uluru
-  var agency = {lat: 37.331060, lng: -121.894020};
-  // The map, centered at Uluru
-  var map = new google.maps.Map(
-      document.getElementById('map'), {zoom: 8, center: agency});
-  // The marker, positioned at Uluru
-  var marker = new google.maps.Marker({position: agency, map: map});
-}
+    // Initialize and add the map
+    function initMap() {
+      // The location of Uluru
+      var agency = {lat: 37.331060, lng: -121.894020};
+      // The map, centered at Uluru
+      var map = new google.maps.Map(
+          document.getElementById('map'), {zoom: 8, center: agency});
+      // The marker, positioned at Uluru
+      var marker = new google.maps.Marker({position: agency, map: map});
+    }
 
     </script>
     <!--Load the API from the specified URL
