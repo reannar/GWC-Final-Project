@@ -3,35 +3,28 @@ body {
   margin-right: 70px;
 }
 
-#homeTitle {
-  font-family: 'Meddon', cursive;
-  font-size: 90px;
-  text-align: center;
-}
-
-
-.topnav a{
+.navbar a{
   font-family: 'Open Sans Condensed', sans-serif;
   font-size: 25px;
   color: Black;
   text-decoration: none;
-  text-align: right;
+}
+
+#IceTitle {
+  font-size: 80px;
+  font-family: 'Meddon', cursive;
+  text-align: center;
 }
 
 #google_translate_element {
   margin-left: 950px;
 }
 
-
 #line {
   text-align: center;
 }
 
-#tagline {
-  font-family: 'Khand', sans-serif;
-  padding-left: 60px;
-  font-weight: lighter;
-}
+
 
 
 .dropbtn {
@@ -65,14 +58,6 @@ body {
     display: block;
     text-align: center;
 }
-
-h1 {
-  margin-left: 70px;
-}
-h3{
-margin-left: 17%
-}
-
 
 .dropdown-content a:hover {background-color: Silver;}
 

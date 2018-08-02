@@ -15,12 +15,14 @@
           }
     </script>
     <script src="http://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+
   </head>
 
     <body>
+    <h1 id="unified">unified</h1>  
     <header id="agenciesTitle"> agencies </header>
 
-    <br></br>
+
     <div class="topnav"><center>
     <a id="home" href="UnitedHome.html">HOME</a>
     &nbsp;
@@ -42,18 +44,20 @@
       <button class="dropbtn">RESOURCES</button>
       <div class="dropdown-content">
         <a href="ICE.html">ICE</a>
-        <a href="#">Link 2</a>
-        <a href="#">Link 3</a>
+
       </div>
     </div>
     </div>
-
+    <h1 id="line">______________________________________________________________</h1>
+    <br>
+    <br>
     <h1 id="agency1"> Law Firm of Silicon Valley</h1>
-    <p><h2 id="agency1Quote">"Every person in our thriving region is granted the same rights and legal access."</p></h2>
-    <p><h1>Mission</p></h1>
-    <P><h2>-Advance the rights of under-represented indivisuals and families in our diverse community through legal services, strategic advocacy, and educational outreach.</p></h2>
-    <p><h3>*Top San Jose Immigration lawyer near you*</p></h3>
-    <p><h1>Look down below to find an immagration lawyer near you!</p><h1>
+    <h1 id="mission">Mission: Advance the rights of under-represented indivisuals and families in our diverse community through legal services, strategic advocacy, and educational outreach.</h1>
+    <h2 id="agency1Quote">"Every person in our thriving region is granted the same rights and legal access."</p></h2>
+    <br>
+    <br>
+    <h3>*Top San Jose Immigration lawyer near you*</h3>
+    <h3>Look down below to find an immigration lawyer near you!<h3>
 
 
     <br></br>
@@ -62,12 +66,12 @@
     <script>
     // Initialize and add the map
     function initMap() {
-      // The location of Uluru
+      // The location of agency
       var agency = {lat: 37.331060, lng: -121.894020};
-      // The map, centered at Uluru
+      // The map, centered at agency
       var map = new google.maps.Map(
           document.getElementById('map'), {zoom: 8, center: agency});
-      // The marker, positioned at Uluru
+      // The marker, positioned at agency
       var marker = new google.maps.Marker({position: agency, map: map});
     }
 
@@ -80,6 +84,10 @@
     <script async defer
     src="https://maps.googleapis.com/maps/api/js?key=&callback=initMap">
     </script>
+
+
+
+
 
 
 
