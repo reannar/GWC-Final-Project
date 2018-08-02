@@ -1,6 +1,6 @@
 body {
-  margin-left: 100px;
-  margin-right: 100px;
+  margin-left: 200px;
+  margin-right: 200px;
 }
 
 #rightsTitle {
@@ -10,11 +10,13 @@ body {
 }
 
 #google_translate_element {
-  margin-left: 950px;
+  margin-left: 750px;
 }
 
 #unified {
-  font-family: 'Abril Fatface', cursive;
+  font-family: 'Special Elite', cursive;
+  font-weight: lighter;
+  text-align:
 }
 
 
@@ -28,13 +30,13 @@ body {
 
 p {
   font-family: 'Khand', sans-serif;
-  font-size: 20px;
+  font-size: 15px;
   text-align: center;
 }
 
 h3 {
   font-family: 'Pathway Gothic One', sans-serif;
-  font-size: 30px;
+  font-size: 25px;
   font-weight: lighter;
   text-align: center;
 }

@@ -1,6 +1,6 @@
 body {
-  margin-left: 70px;
-  margin-right: 70px;
+  margin-left: 150px;
+  margin-right: 150px;
 }
 
 #homeTitle {
@@ -15,11 +15,11 @@ body {
   font-size: 25px;
   color: Black;
   text-decoration: none;
-  text-align: right;
+  text-align: center;
 }
 
 #google_translate_element {
-  margin-left: 950px;
+  margin-left: 750px;
 }
 
 
@@ -29,8 +29,9 @@ body {
 
 #tagline {
   font-family: 'Khand', sans-serif;
-  padding-left: 60px;
+  margin-right: 155px;
   font-weight: lighter;
+  text-align: center;
 }
 
 

@@ -1,6 +1,12 @@
 body {
-  margin-left: 100px;
-  margin-right: 100px;
+  margin-left: 200px;
+  margin-right: 200px;
+}
+
+#unified {
+  font-family: 'Special Elite', cursive;
+  font-weight: lighter;
+  text-align: left;
 }
 
 #agenciesTitle {
@@ -10,7 +16,7 @@ body {
 }
 
 #agency1 {
-  font-size: 30px;
+  font-size: 23px;
   font-family: 'Pathway Gothic One', sans-serif;
   font-weight: lighter;
   text-align: center;
@@ -18,17 +24,17 @@ body {
 
 #agency1Quote {
   font-family: 'Khand', sans-serif;
-  font-size: 20px;
+  font-size: 18px;
   font-weight: lighter;
   text-align: center;
 }
 
 #google_translate_element {
-  margin-left: 950px;
+  margin-left: 730px;
 }
 
 #mission {
-  font-size: 20px;
+  font-size: 18px;
   font-family: 'Khand', sans-serif;
   font-weight: lighter;
   text-align: center;
