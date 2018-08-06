@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+.footer {
+   position: fixed;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   background-color: #91B3CD;
+   color: white;
+
+}
+
+p{
+  padding-right: 500px;
+  text-align: left;
+}
+
+p2{
+  padding-left: 500px;
+  text-align: right;
+}
+</style>
+</head>
+<body>
+
+
+
+<div class="footer">
+
+  <p><strong>About Us:</strong>  Our names are Reanna, Maria, Sierra and Christina we are the founders of unified. We created unified so that people going through the immigration proccess may find the resources that they need in the easiest way.</p>
+    <img src="1.jpg" alt=1 style="width:250px; height:100px";>
+
+    <p2><strong>Contact Us:</strong> (EMAIL)unified.immigration@gmail.com</p2>
+</div>
+
+
+</body>
+</html>
