@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+.footer {
+   position: fixed;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   background-color: #91B3CD;
+   color: white;
+
+
+}
+
+p{
+
+  text-align: center;
+}
+
+
+</style>
+</head>
+<body>
+
+
+
+<div class="footer">
+
+  <p><strong>Contact Us:</strong>  Our names are Reanna, Maria, Sierra and Christina we are the founders of unified. </p>
+  <p>(Email) <strong>unified.immigration<strong>
+  <center>  <h1><img src="1.jpg" alt=1 style="width:250px; height:100px";><center>
+
+
+</div>
+
+
+</body>
+</html>
